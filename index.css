@@ -1,0 +1,404 @@
+*{
+    background: white;
+    font-family: sans-serif;
+}
+body{
+    background: white;
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background: #111111;
+}
+
+.nav-logo{
+    background: #111111;
+
+}
+
+.nav-logo a{
+    text-decoration: none;
+    background: #111111;
+}
+.nav-logo h1{
+    height: 50px;
+    font-size: 55px;
+    color: goldenrod;
+    margin-left: 10px;
+    background: #111111;  
+}
+
+.nav > .marquee{
+    display: fixed;
+}
+
+
+.nav > .list{
+    background:  #111111;
+}
+
+.nav > .list ul{
+    width: 90%;
+    height: 70px;
+    margin-top: 100px;
+    display: flex;
+    margin: 12px;
+    margin-left: 20px;
+    background:  #111111;
+    color: goldenrod;
+    border-radius: 10px;
+}
+.nav > .list ul li{
+    width: 35%;
+    display: flex;
+    font-size: 5px;
+    margin-top: 25px;
+    background:  #111111;
+}
+
+.nav > .list ul li a{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+    background:  goldenrod;
+    color: black;
+    padding-top: 7px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.nav > .list ul li a:hover{
+    background: goldenrod;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.nav  > .list ul li a:hover{
+    color: white;
+}
+
+.nav  > .list ul input[type="search"]{
+    position: fixed;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 10%;
+    margin: 10px;
+    margin-left: 80px;
+    margin-top: 28px;
+    display: inline-flex; 
+}
+
+.slider img{
+    width: 100%;
+    height: 800px;
+    background: url('image/Nascentbobo.jpg');   
+}
+
+
+.trend{
+    width: 55%;
+    height: 45px;
+    background: black;
+    margin-left: 350px;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 55px;
+    padding-bottom: 15px;
+}
+.trend h1{
+    width: 95%;
+    height: 45px;
+    text-decoration: none;
+    font-size: 50px;
+    background: darkorange;
+    color: black;
+    margin-left: 15px;
+    padding-bottom: 15px; 
+}
+
+
+.container1{
+    display: flex;
+    width: 94%;
+    background: white;
+    padding-left: 55px;
+}
+.container2{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    background: black;
+    color: black;
+    margin-right: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid;
+    border-radius: 10px;
+    border-color:white;
+    margin-left: 5px;
+}
+.container1 a{
+    width: 69.9%;
+    display: flex;
+    text-decoration: none;
+    color: black; 
+    background: white;
+
+}
+.container2 a img{
+    margin-right: 5px;
+    margin-left: 8px;   
+}
+.text_container{
+    padding-left: 35px;
+    margin-right: 25px;
+}
+.text_container h4{
+    margin-right: 95px;
+    color: red;
+}
+
+.tracks{
+    width: 15%;
+    height: 45px;
+    background: black;
+    margin-left: 600px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 7px;
+}
+.tracks a{
+    text-decoration: none;
+    margin-bottom: 45px;
+    font-size: 30px;
+    background: black;
+    color: red;
+}
+
+.tracks a:hover{
+    color: white;
+}
+
+/*Video segment*/
+
+.video{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background: white;
+   
+ 
+}
+.v_container{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 20px;
+   
+}
+.v_container a{
+    text-decoration: none;
+}
+.sub_video{
+    width: 75%;
+    height: 400px;
+    padding: 2px;
+    margin-left: 50px;
+    border-radius: 15px;
+    border-bottom-style: solid;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-top-style: solid;   
+}
+.sub_video a{
+    width: 30%;
+    height: 80px;
+    border-top: 15px;
+    border-top-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    
+}
+.sub_video a img{
+    width: 100%;
+    margin-left: 0.2px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    background: white;
+    border-radius: 10px;
+}
+
+.sub_video h2{
+    text-align: center;
+}
+.sub_video p{
+    text-align: center;
+    font-size: 20px;
+    background: white;
+    color:black;
+}
+
+.button{
+    width: 100%;
+    height: 60px;
+    background: black;
+    border-radius: 10px;
+    margin-left: 0.5px;
+}
+
+.button button{
+    width: 25%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 60px;
+    background: black;
+    border-color: darkgoldenrod;
+    border-radius: 15px;
+}
+
+.button button a{
+    width: 120%;
+   background: black;
+   color: darkgoldenrod;
+
+
+}
+
+.more{
+    width: 15%;
+    height: 45px;
+    background: black;
+    margin-left: 600px;
+    border-radius: 20px;
+}
+
+.more a{
+    text-decoration: none;
+}
+
+.more a h1{
+    background: black;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    border-radius: 20px;
+}
+ 
+
+.footer{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    background: black;
+    margin-top: 25px;
+}
+
+.container{
+    margin-left: 30px;
+    background: black;
+}
+
+.container h4{
+    font-family: serif;
+    font-size: 35px;background: black;
+    color: white;
+}
+
+.container p{
+    font-family: serif;
+    font-size: 25px;background: black;
+    color: white;
+}
+
+.Newslatter{
+    background: black;
+    margin-left: 45px;
+}
+
+.Newslatter h4{
+    font-family: serif;
+    font-size: 35px;background: black;
+    color: white;
+}
+
+.Newslatter form{
+    display: flex;
+}
+
+.Newslatter form > .input{
+    background: black;
+}
+
+.Newslatter form > .input input{
+    width: 85%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Newslatter form > .btn{
+    background: black;
+    
+}
+
+.Newslatter form > .btn button{
+    width: 120%;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    background: blue;
+    border-radius: 10px;
+
+}
+
+.Newslatter form > .btn button:hover{
+    background: darkorange;
+}
+
+.Newslatter form > .btn button:hover{
+    color: white;
+}
+
+.info{
+    background: black;
+    margin-left: 50px;
+}
+
+.info h2{
+    font-family: serif;
+    font-size: 35px;background: black;
+    color: white;
+}
+
+.container a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    
+}
+
+.container a:hover{
+    color: darkgoldenrod;
+}
+
+.copyright{
+    text-align: center;
+   
+}
+
+.copyright p{
+    background: black;
+    color: white;
+}
